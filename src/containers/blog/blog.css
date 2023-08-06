@@ -74,3 +74,35 @@
     line-height: 42px;
   }
 }
+
+/* blog.css */
+
+/* Add a common style for error and loading messages */
+.gpt3__loading-message {
+  color: white;
+}
+
+/* Add specific styles for error and loading messages in different sections */
+.gpt3__blog-container_groupA .gpt3__loading-message {
+  /* Customize the styles for loading message in GroupA */
+  /* Example: */
+  font-size: 16px;
+  font-weight: bold;
+  font-family: var(--font-family);
+}
+
+.gpt3__blog-container_groupB .gpt3__loading-message {
+  /* Customize the styles for loading message in GroupB */
+  /* Example: */
+  font-weight: bold;
+  font-family: var(--font-family);
+}
+
+/* Add styles for the error message (optional) */
+.gpt3__error-message {
+  /* Customize the styles for error message */
+  /* Example: */
+  font-size: 18px;
+  font-weight: bold;
+  font-family: var(--font-family);
+}
